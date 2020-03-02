@@ -12,7 +12,7 @@ class IndexPage:
 
     def isExit_quitEle(self):
         try:
-            WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located(By.XPATH('//span/a[text()="退出"]')))
+            WebDriverWait(self.driver, 15).until(EC.visibility_of_element_located((By.XPATH, '//span/a[text()="退出"]')))
             return True
         except:
             return False
