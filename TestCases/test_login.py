@@ -28,7 +28,7 @@ class TestLogin(unittest.TestCase):
     #     self.driver = webdriver.Chrome()
     #     self.driver.get('http://120.78.128.25:8765/Index/login.html')
     #     self.driver.maximize_window()
-    #
+
     def tearDown(self):
         self.driver.refresh()
 
@@ -48,6 +48,14 @@ class TestLogin(unittest.TestCase):
         lp.login(data["user"], data["passwd"])
         # 断言：错误提示信息是否正确
         self.assertEqual(data["check"], lp.get_errorMsg_from_loginArea())
+
+    @ddt.data(*TD.wrong_datas)
+    def test_login_0_wrongDatas(self, data):
+        # 步骤：登录页面的登录功能+用户信息查询
+        lp = LoginPage(self.driver)
+        lp.login(data["user"], data["passwd"])
+        # 断言：错误提示信息是否正确
+        self.assertEqual(data["check"], lp.get_errorMsg_from_pageCenter())
 
         # def test_login_noUser(self):
         #     # 步骤：登录页面的登录功能+用户信息查询
