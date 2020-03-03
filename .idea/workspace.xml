@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b91f54be-4d3e-42a5-b97d-6f37a00dfde4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_login.py" afterPath="$PROJECT_DIR$/TestCases/test_login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDatas/common_datas.py" afterPath="$PROJECT_DIR$/TestDatas/common_datas.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDatas/login_datas.py" afterPath="$PROJECT_DIR$/TestDatas/login_datas.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +40,7 @@
       <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCases/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1028">
+            <state relative-caret-position="668">
               <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -54,8 +52,8 @@
       <file leaf-file-name="login_datas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestDatas/login_datas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+            <state relative-caret-position="288">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,8 +91,8 @@
         <option value="$PROJECT_DIR$/PageObjects/login_page.py" />
         <option value="$PROJECT_DIR$/PageObjects/index_page.py" />
         <option value="$PROJECT_DIR$/TestDatas/common_datas.py" />
-        <option value="$PROJECT_DIR$/TestCases/test_login.py" />
         <option value="$PROJECT_DIR$/TestDatas/login_datas.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_login.py" />
       </list>
     </option>
   </component>
@@ -311,15 +309,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_login_py - 2020.03.02 at 23h 02m 18s.xml">
-      <configuration name="Unittests in test_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login_py - 2020.03.02 at 23h 06m 42s.xml">
-      <configuration name="Unittests in test_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login_py - 2020.03.02 at 23h 12m 13s.xml">
-      <configuration name="Unittests in test_login.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_login_py - 2020.03.03 at 22h 08m 59s.xml">
       <configuration name="Unittests in test_login.py" configurationId="tests" />
     </history-entry>
@@ -341,6 +330,15 @@
     <history-entry file="Unittests_in_test_login_py - 2020.03.03 at 22h 58m 28s.xml">
       <configuration name="Unittests in test_login.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_login_py - 2020.03.03 at 23h 01m 50s.xml">
+      <configuration name="Unittests in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_py - 2020.03.03 at 23h 04m 07s.xml">
+      <configuration name="Unittests in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_py - 2020.03.03 at 23h 05m 49s.xml">
+      <configuration name="Unittests in test_login.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="750" y="0" width="1161" height="1038" extended-state="0" />
@@ -349,7 +347,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27322906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2546083" sideWeight="0.50321984" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6336405" sideWeight="0.49678013" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8202765" sideWeight="0.49678013" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -579,15 +577,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestDatas/login_datas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
+        <state relative-caret-position="668">
           <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
