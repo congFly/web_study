@@ -17,5 +17,5 @@ class IndexPage:
         except:
             return False
 
-    def get_userName(self):
+    def click_firstBid(self):
         pass
