@@ -16,7 +16,6 @@ class LoginPage:
         self.driver.find_element(*loc.user_input).send_keys(username)
         self.driver.find_element(*loc.user_passwd).send_keys(passwd)
         self.driver.find_element(*loc.login_button).click()
-
     # 获取错误提示-没有密码-登录框区域提示
     def get_errorMsg_from_loginArea(self):
         WebDriverWait(self.driver, 20).until(

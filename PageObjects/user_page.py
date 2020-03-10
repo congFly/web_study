@@ -8,5 +8,6 @@ class UserPage:
     def __init__(self, driver):
         self.driver = driver
 
+    # 获取投资后的余额
     def get_userLeftMoney(self):
         pass
